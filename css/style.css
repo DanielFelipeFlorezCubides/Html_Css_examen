@@ -185,6 +185,7 @@ nav{
     height: 1378px;
     display: flex;
     flex-direction: column;
+    gap: 42px;
 }
 
 .como_jugar_title{
@@ -205,4 +206,52 @@ nav{
     width: 654px;
     height: 146px;
     text-align: center;
+}
+
+.cj_container_2{
+    width: 1099px;
+    height: 1079px;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.number{
+    background-image: url(../storage/img/Ellipse\ 2.svg);
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    margin: 29px 32px 58px 0; 
+}
+
+.number p{
+    font-family: 'roboto-condensed-bold';
+    font-size: 64px;
+    color: white;
+    padding: 12px 38px 12px 38px;
+}
+
+.info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 53px;
+}
+
+.info1 p{
+    width: 752px;
+    height: 187px;
+    font-family: 'roboto-condensed-regular';
+    font-size: 28px;
+}
+
+.info1 img{
+    width: 162px;
+    height: 162px;
 }
