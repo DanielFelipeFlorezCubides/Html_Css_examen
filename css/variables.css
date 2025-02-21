@@ -1,13 +1,16 @@
-:root{
+:root {
     --color-1: white;
+    --fuente-regular: "roboto-condensed-regular";
+    --fuente-bold: "roboto-condensed-bold";
 }
 
 @font-face {
-    font-family: "robot-condensed-regular";
-    src: url(../storage/font/static/RobotoCondensed-Regular.ttf);
+    font-family: "roboto-condensed-regular";
+    src: url("../storage/font/static/RobotoCondensed-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "roboto-condensed-bold";
-    src: url(../storage/font/static/RobotoCondensed-Bold.ttf);
+    src: url("../storage/font/static/RobotoCondensed-Bold.ttf") format("truetype");
 }
+

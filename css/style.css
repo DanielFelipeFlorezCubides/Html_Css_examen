@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
 }
 
 *::before, *::after{box-sizing: border-box;}
@@ -59,8 +59,8 @@ nav{
 .aqua p{
     width: 112px;
     height: 46px;
-    font-family: 'roboto-condensed-regular';
-    font-size: 40px;
+    font-family: var(--fuente-regular);
+    font-size: 46px;
     color: rgb(231, 231, 231);
 }
 
@@ -80,7 +80,7 @@ nav{
     text-decoration: none;
     background-color: white;
     color: black;
-    font-family: 'roboto-condensed-bold';
+    font-family: var(--fuente-bold);
     font-size: 24px;
     white-space: nowrap;
 }
@@ -115,25 +115,18 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 15px;
-
-    p:nth-child(2){
-        font-family: 'roboto-condensed-regular';
-        font-size: 26px;
-    }
 }
 
 
 .logo h3{
-    font-weight: lighter;
-    font-family: 'roboto-condensed-regular';
+    font-family: var(--fuente-regular);
     font-size: 56.4px;
     white-space: nowrap;  
 }
 
 .logo p{
-    font-family: 'roboto-condensed-regular';
+    font-family: var(--fuente-regular);
     font-size: 26px;
-    font-weight: lighter; 
 }
 
 .comprar{
@@ -157,7 +150,7 @@ nav{
 }
 
 .comprar_button p{
-    font-family: 'roboto-condensed-regular';
+    font-family: var(--fuente-bold);
     font-size: 40px;
     color: white;
 }
@@ -175,7 +168,7 @@ nav{
 
 .como_jugar{
     position: relative;
-    top: 56px;
+    top: 30px;
     left: 169px;
 }
 
@@ -196,12 +189,12 @@ nav{
 }
 
 .como_jugar_title h2{
-    font-family: 'roboto-condensed-bold';
+    font-family: var(--fuente-bold);
     font-size: 64px;
 }
 
 .como_jugar_title p{
-    font-family: 'robot-condensed-regular';
+    font-family: var(--fuente-regular);
     font-size: 36px;
     width: 654px;
     height: 146px;
@@ -231,7 +224,7 @@ nav{
 }
 
 .number p{
-    font-family: 'roboto-condensed-bold';
+    font-family: var(--fuente-bold);
     font-size: 64px;
     color: white;
     padding: 12px 38px 12px 38px;
@@ -247,11 +240,127 @@ nav{
 .info1 p{
     width: 752px;
     height: 187px;
-    font-family: 'roboto-condensed-regular';
+    font-family: var(--fuente-regular);
     font-size: 28px;
 }
 
 .info1 img{
     width: 162px;
     height: 162px;
+}
+
+.apoyanos{
+    position: relative;
+}
+
+.apoyanos_container{
+    position: relative;
+    top: 412px;
+    left: 142px;
+    width: 1167px;
+    height: 438px;
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+
+.apoyanos_info{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+    width: 755px;
+    height: 338px;
+}
+
+.apoyanos_info h2{
+    font-family: var(--fuente-bold);
+    font-size: 72px;
+}
+
+.apoyanos_info p{
+    font-family: var(--fuente-regular);
+    font-size: 36px;
+    text-align: left;
+}
+
+.apoyanos_info2{
+    width: 375px;
+    height: 405px;
+}
+
+.apoyanos_info2 a{
+    position: relative;
+    top: 43px;
+    left: 49px;
+    padding: 0 36px 0 47px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: var(--fuente-bold);
+    font-size: 36px;
+}
+
+.sn_container{
+    width: 1160px;
+    height: 592px;
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    position: relative;
+    top: 600px;
+    left: 142px;
+}
+
+.sn_info{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+    width: 713px;
+    height: 592px;
+}
+
+.sn_info h2{
+    font-family: var(--fuente-bold);
+    font-size: 72px;
+}
+
+.sn_info p{
+    font-family: var(--fuente-regular);
+    font-size: 33.2px;
+    text-align: left;
+}
+
+.sn_info2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 76px;
+    width: 357px;
+    height: 238px;
+}
+
+.img_left{
+    position: relative;
+    left: -117px;
+}
+
+.sn_info3{
+    width: 295px;
+    height: 92px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sn_info3 h3{
+    white-space: nowrap;
+    font-family: var(--fuente-regular);
+    font-size: 90px;
+}
+
+footer{
+    position: relative;
+    top: 700px;
 }
