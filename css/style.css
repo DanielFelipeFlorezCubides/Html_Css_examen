@@ -1,3 +1,5 @@
+@import url(variables.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -19,4 +21,188 @@ transition-duration: 0.01ms !important;
 scroll-behavior: auto !important;
 transition: none;
 }
+}
+
+body{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 3911px;
+    background-color: rgb(248, 248, 248);
+}
+
+header{
+    width: 1440px;
+    height: 141px;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1446px;
+}
+
+.aqua{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 21px 63px 27px 78px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 50px;
+    width: 163px;
+    left: -70px;
+}
+
+.aqua p{
+    width: 112px;
+    height: 46px;
+    font-family: 'roboto-condensed-regular';
+    font-size: 40px;
+    color: rgb(231, 231, 231);
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 73px;
+    width: 766px;
+    height: 44px;
+    position: relative;
+    top: 38px;
+    left: -100px;
+}
+
+.list a{
+    padding: 11px 10px 11px 10px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: 'roboto-condensed-bold';
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+.icons{
+    width: 105px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    top: 38px;
+}
+
+.inicio_container{
+    width: 1320px;
+    height: 592px;
+    position: relative;
+    /* top: 171px; */
+    left: 100px;
+}
+
+.inicio_container_1{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.logo{
+    width: 707px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    p:nth-child(2){
+        font-family: 'roboto-condensed-regular';
+        font-size: 26px;
+    }
+}
+
+
+.logo h3{
+    font-weight: lighter;
+    font-family: 'roboto-condensed-regular';
+    font-size: 56.4px;
+    white-space: nowrap;  
+}
+
+.logo p{
+    font-family: 'roboto-condensed-regular';
+    font-size: 26px;
+    font-weight: lighter; 
+}
+
+.comprar{
+    width: 494px;
+    height: 541px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.comprar_button{
+    display: flex;
+    flex-direction: row;
+    width: 181px;
+    height: 48px;
+    padding: 3px 28px 3px 28px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    top: -30px;
+}
+
+.comprar_button p{
+    font-family: 'roboto-condensed-regular';
+    font-size: 40px;
+    color: white;
+}
+
+.social{
+    position: relative;
+    top: 300px;
+    width: 82px;
+    height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.como_jugar{
+    position: relative;
+    top: 56px;
+    left: 169px;
+}
+
+
+.como_jugar_container{
+    width: 1099px;
+    height: 1378px;
+    display: flex;
+    flex-direction: column;
+}
+
+.como_jugar_title{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    align-items: center;
+}
+
+.como_jugar_title h2{
+    font-family: 'roboto-condensed-bold';
+    font-size: 64px;
+}
+
+.como_jugar_title p{
+    font-family: 'robot-condensed-regular';
+    font-size: 36px;
+    width: 654px;
+    height: 146px;
+    text-align: center;
 }
